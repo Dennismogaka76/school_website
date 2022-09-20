@@ -1,0 +1,129 @@
+body{
+background-image:url(images/admin_block.jpg);
+
+	background-position:center center fixed;
+	
+	background-size: cover;
+
+}
+
+
+.logo{
+	margin-left:40%;
+	
+	
+}
+h1{
+	color: #8B0000;
+	text-align: center;
+	background-color: #B8860B;
+	
+}
+
+header{
+	
+	border:2px solid maroon;
+	border-radius: 10px;
+	font-weight: bolder;
+	font-size: 23px;
+}
+nav{width: 100%;}
+	nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	
+}
+
+nav ul li{
+	float: left;
+	width:180px;
+	height: 50px;
+	background-color: black;
+	opacity: 0.8;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	font-family: sans-serif;
+	border:2px solid white;
+	border-radius: 6px;
+	padding: 5px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color:white; 
+	display: block; 
+
+}
+nav ul li a:hover{
+	background-color:green;
+	color: #FFD700; 
+}
+nav li ul li{
+	display:none;
+}
+nav ul li:hover ul li{
+	display: block;
+}
+
+ 
+
+	*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+
+}
+.slider{
+
+	overflow: hidden;
+	height: 250px;
+
+	
+}
+.slider figure div{
+	float: left;
+	width: 20%
+
+}
+.slider figure img{
+   
+	width: 70%;
+	float: left;
+}
+.slider figure{
+
+	position: relative;
+	width: 500%;
+	margin-top:320px;
+	margin-left: 15%;
+	left: 0;
+	animation: 15s denno infinite;
+}
+@keyframes denno{
+	0%{
+		left: 0%;
+
+	}
+	20%{
+left:-100%;
+	}
+	40%{
+left:-100%;
+	}
+	60%{
+left:-200%;
+	}
+	80%{
+left:-200%;
+	}
+	100%{
+left:-300%;
+	}
+
+
+
+
